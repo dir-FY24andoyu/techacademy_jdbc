@@ -25,7 +25,7 @@ public class DbConnectSample04 {
             con = DriverManager.getConnection(
                 "jdbc:mysql://localhost/world?useSSL=false&allowPublicKeyRetrieval=true",
                 "root",
-                "password"
+                "k281228-y5277And"
             );
 
             String sql = "SELECT * FROM country WHERE Name = ?";
